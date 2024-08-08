@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  font-family: "Almarai", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.slider-background{
+  background-color: red;
+}
+
+.slider-background2{
+  background-color: burlywood;
+}
+.slider-background3{
+  background-color: aqua;
+}
+.slider-background4{
+  background-color:blueviolet ;
+}
+
+/* .allCard {
+  position: relative;
+  height: 130px;
+  width: 130px;
+}
+.categoty-card {
+  height: 140px;
+  width: 100%;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.categoty-card-img {
+  max-width: 110px;
+  max-height: 100px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+} */
+
+.allCard{
+    width: 130px;
+    height: 130px;
+    position: relative;
+}
+
+.categoty-card {
+  height: 140px;
+  width: 100%;
+  border-radius: 50%;
+  opacity: .3;
+}
+
+.categoty-card-img{
+  position: absolute;
+  top: 19%;
+  left: 12%;
+  max-width: 110px;
+  max-height: 100px;
+}
+
+.categoty-card-text {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;}
+
+
+  /* discount setion */
+.discount-backcolor {
+  height: 130px;
+  border-radius: 8px;
+  background: radial-gradient(circle, #767676 0%, #4d4f50 100%, #494c4d 100%);
+}
+.discount-title {
+  color: #ffffff;
+  font-family: Cairo;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 39px;
+}
+.dicount-img {
+  max-height: 130px;
+  max-width: 80%;
+}
+
+
+/* products card style */
+
+.card-title {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: right;
+}
+.card-price {
+  color: #272727;
+  font-family: Almarai;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.card-currency {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.card-rate {
+  color: #ffc107;
+  font-family: Almarai;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+
+.btn-title{
+  padding: 5px;
+  height: 35px;
+  width: 90px;
+  color: #272727;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #272727;
+  border-radius: 14px;
+}
+
+
+
+.btn-title:hover{
+  background-color:black;
+  border: 1px solid white;
+  color: #f9f9f9;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+
+
+
+
+.user-input {
+  box-sizing: border-box;
+  height: 37px;
+  width: 375px;
+  border: 1px solid #979797;
+  border-radius: 8px;
+}
+.title-login {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: right;
+}
+.btn-login {
+  height: 46px;
+  width: 374px;
+  border-radius: 9px;
+  border: none;
+  color: white;
+  background-color: #272727;
+}
+.btn-login:hover {
+  color: rgb(206, 204, 204);
+}
+
+/* pagination */
+.page-link {
+  background-color: #f9f9f9 !important;
+  color: #272727 !important;
+  border-radius: 10px !important;
+  border: solid 1px 272727 !important;
+}
+.page-link:hover {
+  background-color: #272727 !important;
+  color: white !important;
+  border: solid 1px 272727 !important;
+}
+/* end pagination */
+
+
+
+
+/* card filter style */
+.search-count-text {
+  color: #979797;
+  font-family: Almarai;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: right;
+}
+.card-filter {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 170px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-filter-item {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px;
+}
+.card-filter-item:hover {
+  background-color: #272727;
+  color: #ffffff;
+}
+/* end card filter */
+
+
+/* category header */
+.cat-header {
+  height: 100%;
+  background-color: #979797;
+}
+
+.cat-text-header {
+  color: white;
+  font-family: "Almarai";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 23px;
+  padding-top: 10px;
+  margin-left: 17px;
+  cursor: pointer;
+}
+.cat-text-header:hover {
+  color: #555550;
+}
+
+/* end categoery header */
+
+
+
+/* filter side style */
+.filter-title {
+  color: #555550;
+  font-family: "Almarai";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: right;
+}
+.filter-sub {
+  color: #555550;
+  font-family: "Almarai";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: center;
+}
+/* end filter */
