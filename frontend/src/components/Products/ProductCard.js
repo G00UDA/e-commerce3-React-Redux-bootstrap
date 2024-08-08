@@ -3,6 +3,7 @@ import { Card, Col } from 'react-bootstrap'
 import prod1 from "../../assets/images/prod1.png";
 import favoff from "../../assets/images/fav-off.png";
 import rate from "../../assets/images/rate.png";
+import { Link } from 'react-router-dom';
 
 const ProductCard = () => {
     return (
@@ -18,9 +19,12 @@ const ProductCard = () => {
                     backgroundColor: "#FFFFFF",
                     boxShadow: "0 2px 2px 0 rgba(151,151,151,0.5)",
                 }}>
+                    <Link to='/products:id'>
                     <Card.Img style={{ height: "228px", width: "100%" }} src={prod1} />
+                    </Link>
                 
                 <div className="d-flex justify-content-end mx-2">
+                    
                     <img
                         src={favoff}
                         alt=""
@@ -30,6 +34,7 @@ const ProductCard = () => {
                             width: "26px",
                         }}
                     />
+                    
                 </div>
                 <Card.Body>
                     <Card.Title>

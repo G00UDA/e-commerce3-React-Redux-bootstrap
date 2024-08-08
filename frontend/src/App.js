@@ -7,6 +7,7 @@ import AllCategorys from "./pages/category/AllCategorys";
 import HomePage from "./pages/Home/HomePage";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ShopProductsPage from "./pages/products/ShopProductsPage";
+import ProductsDetails from "./pages/products/ProductsDetailsPage";
 function App() {
   return (
     <div className="text-center">
@@ -19,6 +20,7 @@ function App() {
       <Route path="allcategorys" element={<AllCategorys/>} />
       <Route path="allbrands" element={<AllBrandPage/>} />
       <Route path="products" element={<ShopProductsPage/>} />
+      <Route path="products:id" element={<ProductsDetails/>} />
       </Routes>
       </BrowserRouter>
       <Footer/>
