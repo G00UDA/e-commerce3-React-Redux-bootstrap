@@ -8,6 +8,8 @@ import HomePage from "./pages/Home/HomePage";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ShopProductsPage from "./pages/products/ShopProductsPage";
 import ProductsDetails from "./pages/products/ProductsDetailsPage";
+import CartPage from "./pages/cart/CartPage";
+import ChoosePayMethod from "./pages/checkout/ChoosePayMethod";
 function App() {
   return (
     <div className="text-center">
@@ -21,6 +23,10 @@ function App() {
       <Route path="allbrands" element={<AllBrandPage/>} />
       <Route path="products" element={<ShopProductsPage/>} />
       <Route path="products:id" element={<ProductsDetails/>} />
+      <Route path="/cart" element={<CartPage/>} />
+      <Route path="/cart" element={<CartPage/>} />
+      <Route path="/order/paymethoud" element={<ChoosePayMethod/>} />
+
       </Routes>
       </BrowserRouter>
       <Footer/>
