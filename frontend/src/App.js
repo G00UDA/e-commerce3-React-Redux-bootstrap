@@ -10,6 +10,9 @@ import ShopProductsPage from "./pages/products/ShopProductsPage";
 import ProductsDetails from "./pages/products/ProductsDetailsPage";
 import CartPage from "./pages/cart/CartPage";
 import ChoosePayMethod from "./pages/checkout/ChoosePayMethod";
+import AdminallproductPage from "./pages/Admin/AdminallproductPage";
+import AdminAllOrders from "./pages/Admin/AdminAllOrders";
+import AdminOrderDetailsPage from "./pages/Admin/AdminOrderDetailsPage";
 function App() {
   return (
     <div className="text-center">
@@ -26,6 +29,9 @@ function App() {
       <Route path="/cart" element={<CartPage/>} />
       <Route path="/cart" element={<CartPage/>} />
       <Route path="/order/paymethoud" element={<ChoosePayMethod/>} />
+      <Route path="/admin/allproducts" element={<AdminallproductPage/>} />
+      <Route path="/admin/allorders" element={<AdminAllOrders/>} />
+      <Route path="admin/orders/23" element={<AdminOrderDetailsPage/>} />
 
       </Routes>
       </BrowserRouter>
